@@ -1,7 +1,6 @@
 nav {
-  width: 100vw;
   height: 80px;
-  background: darkolivegreen;
+  background: steelblue;
 
   .header-container {
     max-width: 1200px;
@@ -15,10 +14,21 @@ nav {
       font-size: x-large;
     }
 
+    .brand:hover {
+      text-decoration: none;
+    }
+
     .navigation-links {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: center;
+      
+
+      a {
+        margin: 0 20px 0 0;
+        font-size: large;
+      }
+
     }
   }
 }

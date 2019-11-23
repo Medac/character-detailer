@@ -1,0 +1,40 @@
+.container {
+  background-color: ivory;
+  min-height: 1000px;
+
+  .page-content {
+    padding-top: 100px;
+
+    .mat-card {
+      width: 600px;
+      padding: 0;
+      margin: auto;
+      background: steelblue;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      img {
+        width: unset;
+        margin: 0;
+      }
+
+      .card-text {
+        width: 300px;
+        margin: 80px auto;
+      }
+
+      /deep/ .mat-card-header-text {
+        margin: 0;
+
+        .mat-card-title {
+          font-size: x-large;
+        }
+      }
+    }
+
+    address {
+      display: inline-flex;
+    }
+  }
+}
