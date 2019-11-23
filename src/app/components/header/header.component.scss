@@ -1,0 +1,24 @@
+nav {
+  width: 100vw;
+  height: 80px;
+  background: darkolivegreen;
+
+  .header-container {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .brand {
+      font-size: x-large;
+    }
+
+    .navigation-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  }
+}
